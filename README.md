@@ -1,6 +1,6 @@
 # About the master project
 This has 2 separate Java Spring Boot projects to Produce and Consume events from Wikimedia website (https://stream.wikimedia.org/v2/stream/recentchange). 
-stream.wikimedia.org hosts services that allow one to subscribe to real-time events from Wikimedia wikis.
+stream.wikimedia.org hosts services that allow one to subscribe to real-time events from Wikimedia wikis. The magic happens when both producer and consumer apps are run together..!
 ## Producer App
 This app streams data from https://stream.wikimedia.org/v2/stream/recentchange to Kafka Broker
 ## Consumer App
